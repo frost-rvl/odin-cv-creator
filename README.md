@@ -15,14 +15,6 @@ Edit your CV live in the browser and export it as a high-quality PDF using the b
 
 ---
 
-## Tech Stack
-
-- React
-- Vite
-- CSS
-
----
-
 ## Getting Started
 
 ```bash
