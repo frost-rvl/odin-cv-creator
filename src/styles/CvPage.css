@@ -1,6 +1,29 @@
-#cv-container {
-    width: 842px;
-    min-height: 1100px;
+#cvContainer {
+    width: 210mm;
+    min-height: 297mm;
     background-color: white;
-    color: black;
+    color: var(--light-font);
+    padding: 10mm;
+}
+
+#cvContainer input,
+#cvContainer textarea {
+    color: var(--light-font);
+    background: none;
+    width: auto;
+}
+
+.input-field {
+    display: inline-block;
+    border: none;
+    font-size: 1rem;
+    margin-bottom: 0.3em;
+    padding: 0 2px;
+}
+
+.textarea-field {
+    resize: none;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
 }

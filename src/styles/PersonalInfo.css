@@ -1,0 +1,23 @@
+#personalInfoContainer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    border-bottom: 1px gray solid;
+    margin-bottom: 1rem;
+}
+
+.cv-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.cv-title input:first-child {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.2em;
+    color: var(--dark-font) !important;
+}
+
+.cv-title input:last-child {
+    font-size: 1.3rem;
+}

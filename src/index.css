@@ -11,6 +11,9 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    --dark-font: #191919;
+    --light-font: #555555;
 }
 
 a {
@@ -70,4 +73,33 @@ button:focus-visible {
     button {
         background-color: #f9f9f9;
     }
+}
+
+@media print {
+
+    body *,
+    #cvContainer button {
+        visibility: hidden;
+    }
+
+    #cvContainer,
+    #cvContainer * {
+        visibility: visible;
+    }
+
+    #cvContainer {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .exp-head {
+        border-bottom: 0.5mm gray solid !important;
+    }
+
+}
+
+@page {
+    size: auto;
+    margin: 0mm;
 }

@@ -1,0 +1,36 @@
+#expContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0;
+}
+
+.exp-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    border-bottom: 1px gray solid;
+    margin-bottom: 1em;
+}
+
+.exp-head h2 {
+    font-size: 0.9rem;
+}
+
+.exp-head button {
+    height: fit-content;
+    font-size: 0.7rem;
+}
+
+
+#expSectionContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+#expSectionContainer>input {
+    font-size: 1.2rem;
+    font-weight: 550;
+    color: var(--dark-font) !important;
+}
