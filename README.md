@@ -3,6 +3,8 @@
 A clean and simple CV builder made with React and Vite.  
 Edit your CV live in the browser and export it as a high-quality PDF using the browser’s print system (no pixelation, no layout bugs).
 
+[livedemo](https://odin-cv-creator-mu.vercel.app/)
+
 ---
 
 ## Getting Started
